@@ -18,7 +18,7 @@
 		"features_list": ["Create a free account.", "Write your stories."]
 	},
 	"top_banner": {
-		"enable": true,
+		"enable": false,
 		"description": "-50% Intro price for the next 72 hours only!.",
 		"end_link": {
 			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
@@ -32,18 +32,18 @@
 		"sub_title": "Let's explore the most popular categories"
 	},
 	"site_info": {
-		"site_title": "Ncmaz Nextjs Blog",
-		"site_description": "Ncmaz Nextjs Blog headless WordPress",
-		"site_keywords": "Ncmaz Nextjs Blog",
-		"site_author": "ChisNghiax",
-		"site_email": "Your Email",
-		"site_phone": "Your Phone",
-		"site_address": "Your Address",
-		"site_city": "Your City",
-		"site_state": "Your State",
-		"site_zip": "Your Zip",
+		"site_title": "SocialMop",
+		"site_description": "SocialMop Network",
+		"site_keywords": "soicalmop, music, events, videos,",
+		"site_author": "SocialMopax",
+		"site_email": "contact@socialmop.com",
+		"site_phone": "+16513213081",
+		"site_address": "428 Minnesota St",
+		"site_city": "St Paul",
+		"site_state": "Minnesota",
+		"site_zip": "55106",
 		"site_country": "Your Country",
-		"site_url": "https://www.yoursite.com",
+		"site_url": "https://www.socialmop.com",
 		"site_logo": "/logo.png",
 		"site_logo_light": "/logo-light.png",
 		"site_favicon": "/favicon.png"
@@ -51,13 +51,13 @@
 	"site_socials": [
 		{
 			"name": "facebook",
-			"url": "https://www.facebook.com/yourfacebookpage",
+			"url": "https://www.facebook.com/socialmop",
 			"icon": "/images/socials/facebook.svg",
 			"description": "Follow us on Facebook"
 		},
 		{
 			"name": "twitter",
-			"url": "https://twitter.com/yourtwitterpage",
+			"url": "https://twitter.com/soicalmop",
 			"icon": "/images/socials/x-twitter.svg",
 			"description": "Follow us on Twitter"
 		},
@@ -69,7 +69,7 @@
 		},
 		{
 			"name": "tiktok",
-			"url": "https://www.tiktok.com/yourtiktokpage",
+			"url": "https://www.tiktok.com/socialmop",
 			"icon": "/images/socials/tiktok.svg",
 			"description": "Follow us on Tiktok"
 		}
@@ -82,7 +82,7 @@
 		}
 	},
 	"site_footer": {
-		"all_rights_reserved_text": "© 2024 BooliiTheme Company, Inc. All rights reserved."
+		"all_rights_reserved_text": "© 2025 SocialMop, Hustle Big Inc. All rights reserved."
 	},
 	"single_page": {
 		"show_view_cout": true,
