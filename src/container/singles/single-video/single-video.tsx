@@ -96,9 +96,12 @@ const SingleTypeVideo: FC<Props> = ({ post }) => {
 	return (
 		<>
 			{/* Full-width video at top - YouTube style */}
-			<div className="relative w-full">
-				<div className="aspect-w-16 aspect-h-9 relative bg-neutral-800">
-					{renderMainVideo()}
+			<div className="relative w-full pt-safe-top">
+				{/* Mobile: full width, Desktop: constrained for better viewing */}
+				<div className="mx-auto max-w-none sm:max-w-4xl lg:max-w-6xl xl:max-w-7xl">
+					<div className="aspect-w-16 aspect-h-9 relative bg-neutral-800 sm:rounded-lg overflow-hidden">
+						{renderMainVideo()}
+					</div>
 				</div>
 			</div>
 
