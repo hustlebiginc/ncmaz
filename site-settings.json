@@ -1,6 +1,6 @@
 {
 	"version": "2.8.0",
-	"mailpoet_api_key": "your_mailpoet_api_key",
+	"mailpoet_api_key": "ab913a81118d6049d26878971af1fc06",
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
 		"enable": true,
@@ -18,8 +18,8 @@
 		"features_list": ["Create a free account.", "Write your stories."]
 	},
 	"top_banner": {
-		"enable": false,
-		"description": "-50% Intro price for the next 72 hours only!.",
+		"enable": true,
+		"description": "Get some SMOP Coins!.",
 		"end_link": {
 			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
 			"text": "Buy now  →",

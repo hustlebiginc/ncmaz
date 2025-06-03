@@ -60,7 +60,7 @@ const SingleTypeVideo: FC<Props> = ({ post }) => {
 	const renderHeader = () => {
 		return (
 			<div className={`nc-SingleHeaderVideo`}>
-				<div className="dark space-y-4 text-neutral-100 md:space-y-5">
+				<div className="space-y-4 md:space-y-5">
 					<CategoryBadgeList
 						itemClass="!px-3"
 						categories={categories?.nodes || []}
@@ -70,7 +70,7 @@ const SingleTypeVideo: FC<Props> = ({ post }) => {
 						title={title || ''}
 					/>
 
-					<div className="max-w-screen-sm break-words pb-1 text-sm text-neutral-500 lg:text-lg dark:text-neutral-400">
+					<div className="max-w-4xl break-words pb-1 text-sm text-neutral-500 lg:text-lg dark:text-neutral-400">
 						<span
 							className="line-clamp-2"
 							dangerouslySetInnerHTML={{ __html: excerpt }}
@@ -95,18 +95,19 @@ const SingleTypeVideo: FC<Props> = ({ post }) => {
 
 	return (
 		<>
-			<header className="container relative flex flex-col py-14 xl:flex-row xl:items-center xl:py-20">
-				{/*  */}
-				<div className="nc-PageSingleVideo__headerWrap absolute inset-y-0 end-1/2 w-screen translate-x-1/2 transform bg-neutral-900 xl:w-[calc(100vw/2)] xl:translate-x-0 xl:rounded-e-[40px] dark:bg-black dark:bg-opacity-50"></div>
-				{/*  */}
-
-				<div className="relative pb-10 xl:pb-0 xl:pr-10">{renderHeader()}</div>
-				<div className="relative flex-shrink-0 xl:w-8/12">
-					<div className="aspect-h-16 aspect-w-16 z-0 overflow-hidden rounded-3xl border-4 border-neutral-300 bg-neutral-800 shadow-2xl sm:aspect-h-9 dark:border-neutral-800">
-						{renderMainVideo()}
-					</div>
+			{/* Full-width video at top - YouTube style */}
+			<div className="relative w-full">
+				<div className="aspect-w-16 aspect-h-9 relative bg-neutral-800">
+					{renderMainVideo()}
 				</div>
-			</header>
+			</div>
+
+			{/* Content section below video */}
+			<div className="container mx-auto px-4 py-8 lg:py-12">
+				<div className="mx-auto max-w-4xl">
+					{renderHeader()}
+				</div>
+			</div>
 		</>
 	)
 }
